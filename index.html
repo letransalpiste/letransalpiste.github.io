@@ -708,17 +708,17 @@ footer a{color:var(--hero-fg)}
 
     <h3 class="sv-h">Quatre saveurs pour commencer</h3>
     <div class="sv-cards">
-      <article class="sv-card"><span class="sv-ico" aria-hidden="true">🐐</span><h4>Fromage de chèvre</h4><p><b>Chèvrerie du Bois des Louvières</b>, Mézières-en-Drouais (28). Exploitation familiale depuis 35 ans.</p><span class="sv-tag">Piste n°1 · épisode test</span></article>
-      <article class="sv-card"><span class="sv-ico" aria-hidden="true">🍺</span><h4>Bière, de l'orge au verre</h4><p><b>Ferme-Brasserie Rabourdin</b>, Courpalay (77). L'orge est cultivée sur la ferme et brassée dans un ancien silo à grains classé monument historique.</p><span class="sv-tag">Épisode 2 · toute l'année</span></article>
+      <article class="sv-card"><span class="sv-ico" aria-hidden="true">🐐</span><h4>Fromage de chèvre</h4><p>Une chèvrerie familiale en Eure-et-Loir.</p><span class="sv-tag">Piste n°1 · épisode test</span></article>
+      <article class="sv-card"><span class="sv-ico" aria-hidden="true">🍺</span><h4>Bière, de l'orge au verre</h4><p>Une ferme-brasserie en Seine-et-Marne, qui brasse l'orge de ses propres champs.</p><span class="sv-tag">Épisode 2 · toute l'année</span></article>
       <article class="sv-card"><span class="sv-ico" aria-hidden="true">🐄</span><h4>Fromage de vache</h4><p>Producteur à trouver, avec l'aide de ma fromagerie de quartier, qui connaît ses producteurs.</p><span class="sv-tag">À trouver</span></article>
-      <article class="sv-card"><span class="sv-ico" aria-hidden="true">🌾</span><h4>Moisson et farine</h4><p><b>Ferme d'Orvilliers</b>, Broué (28) : meunerie et fournil sur place. Et la moisson en famille, à Greny.</p><span class="sv-tag">L'été prochain</span></article>
+      <article class="sv-card"><span class="sv-ico" aria-hidden="true">🌾</span><h4>Moisson et farine</h4><p>Une ferme avec meunerie et fournil en Eure-et-Loir. Et la moisson en famille, à Greny.</p><span class="sv-tag">L'été prochain</span></article>
     </div>
 
     <h3 class="sv-h">Les étapes</h3>
     <ol class="sv-phases">
       <li><b>Trouver et tester</b><span>Contacter les producteurs, tourner l'épisode test autour de chez moi, regarder les retours du public.</span></li>
-      <li><b>Varier les concepts</b><span>La bière chez Rabourdin, un fromage de vache.</span></li>
-      <li><b>La moisson</b><span>L'été : Greny et Orvilliers, du champ à la farine.</span></li>
+      <li><b>Varier les concepts</b><span>Une bière de ferme, un fromage de vache.</span></li>
+      <li><b>La moisson</b><span>L'été : la moisson à Greny, puis du champ à la farine.</span></li>
       <li><b>Élargir</b><span>D'autres régions, des producteurs qui innovent : pâturage tournant, agroforesterie, races locales.</span></li>
     </ol>
   </div>
@@ -873,7 +873,7 @@ TRIPS.forEach(t=>t.fr=inFrance(t));
 const PLAYLISTS={paris:"Balades moto autour de Paris",voyage:"La Transalp en voyage",hors:"Hors playlist"};
 const PLMAP={chevreuse:"paris",vexin:"paris",chantilly:"paris",alpes:"voyage",cotentin:"voyage"};
 TRIPS.forEach(t=>t.pl=PLMAP[t.id]||(t.k==="done"?"hors":"plan"));
-const SAVEURS=[["Chèvrerie du Bois des Louvières · chèvre",1.43,48.72],["Ferme-Brasserie Rabourdin · bière",2.96,48.65],["Ferme d'Orvilliers · moisson & farine",1.52,48.79]];
+const SAVEURS=[["Fromage de chèvre · Eure-et-Loir",1.3,48.5],["Bière · Seine-et-Marne",2.9,48.55],["Moisson et farine · Eure-et-Loir",1.6,48.35]];
 
 // Boîte à idées (Notion « Le contenu »), placée sur la carte
 const IDEAS=[["Bretagne",-3.2,48.2],["Morvan",4.0,47.15],["Vosges",7.0,48.05],["Jura",5.95,46.6],["Ardèche",4.4,44.65],["Côte d'Opale",1.65,50.8],["Le Perche",0.75,48.35],["Pays de Bray",1.65,49.6],["Pyrénées",0.3,42.85],["Routes de la Sarthe",0.2,47.9],["Tour du Mont Blanc",6.86,45.83],
